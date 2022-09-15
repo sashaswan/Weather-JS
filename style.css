@@ -1,0 +1,34 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+.text-center {
+    text-align: center;
+}
+.button-primary {
+    margin-top: 20px;
+}
+.forecast-info {
+    display: flex;
+}
+.city-4 {
+    padding-right: 10px;
+}
+.information {
+    text-align: left;
+    list-style: none;
+    margin-top: 10px;
+}
+.block {
+    display: flex;
+}
+.weather-i li {
+    list-style: none;
+}

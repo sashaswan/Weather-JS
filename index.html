@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="#">
+        <link rel="stylesheet"
+            href="https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="pricing-table row">
+                <div class="package featured">
+                    <p class="package-name">City</p>
+                    <hr>
+                    <p class="price">0 &deg;</p>
+                    <p class="disclaimer">weather</p>
+                    <hr>
+                    <ul class="features">
+                        <li><img
+                                src="https://openweathermap.org/img/wn/03n@2x.png"></li>
+                    </ul>
+                    <select id="s1">
+                        <option selected>Choose city</option>
+                        <option value="702550">Lviv [UA]</option>
+                        <option value="703448">Kyiv [UA]</option>
+                        <option value="3084237">Sulęcin [PL]</option>
+                    </select>
+                </div>
+                <div class="package featured">
+                    <p class="country package-name">Country</p>
+                    <hr>
+                    <p class="price" style="font-size: 24px;">Feels like :</p>
+                    <p class="feel price">0 &deg;</p>
+                    <p></p>
+                    <hr>
+                    <ul class="features">
+                        <li>
+                            <label class="disclaimer">humidity :</label>
+                            <label class="humidity disclaimer"></label>
+                            <p></p>
+                            <label class="disclaimer">pressure :</label>
+                            <label class="pressure disclaimer"></label>
+                            <p></p>
+                            <label class="disclaimer">sunrise :</label>
+                            <label class="sunrise disclaimer"></label>
+                            <p></p>
+                            <label class="disclaimer">sunset :</label>
+                            <label class="sunset disclaimer"></label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="package featured">
+                    <input type="range" min="0" max="39" value='0' class="range">
+                    <hr>
+                    <p class="price" style="font-size: 24px;">Temperature :</p>
+                    <p class="temp-4 price">0 &deg;</p>
+                    <p></p>
+                    <hr>
+                    <label class="weather-i">
+                        <img src="https://openweathermap.org/img/wn/03n@2x.png">
+                    </label>
+                    <hr>
+                    <ul class="information">
+                        <li>
+                            <label class="disclaimer" >weather :</label>
+                            <label class="weather-4 disclaimer" ></label>
+                            <p></p>
+                            <label class="disclaimer">humidity :</label>
+                            <label class="humidity-4 disclaimer"></label>
+                            <p></p>
+                            <label class="disclaimer">pressure :</label>
+                            <label class="pressure-4 disclaimer"></label>
+                            <p></p>
+                            <label class="disclaimer">Date :</label>
+                            <label class="date disclaimer"></label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="Multi.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
